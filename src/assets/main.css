@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Space+Grotesk&display=swap');
+main p,
+h2,
+h1,
+a,
+ul,
+li {
+  font-family: 'Inter', sans-serif;
+}
+footer .desc-text {
+  font-family: 'Space Grotesk', sans-serif;
+}

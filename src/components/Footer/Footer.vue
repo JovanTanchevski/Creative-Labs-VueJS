@@ -29,28 +29,8 @@
       <div
         class="w-full mt-12 md:mt-0 md:flex md:w-1/2 md:justify-between gap-6"
       >
-        <div class="mb-4 mx-auto md:w-1/2">
-          <h3 class="text-lg font-semibold">Creative Labs</h3>
-          <ul class="list-none">
-            <li>Work</li>
-            <li>What we do</li>
-            <li>Stories</li>
-            <li>Contact us</li>
-            <li>Careers</li>
-            <li>About us</li>
-          </ul>
-        </div>
-        <div class="md:w-1/2">
-          <h3 class="text-lg font-semibold">Contact us</h3>
-          <ul class="list-none">
-            <li>Contact us</li>
-            <li>Creative Labs</li>
-            <li>Pelagonka 2</li>
-            <li>Bitola, Macedonia</li>
-            <li>hi@creativelabs.se</li>
-            <li>LinkedIn</li>
-          </ul>
-        </div>
+        <FooterColumn title="Creative Labs" :items="creativeLabsItems" />
+        <FooterColumn title="Contact us" :items="contactUsItems" />
       </div>
     </div>
     <div
@@ -59,10 +39,40 @@
       <p>© COPYRIGHT 2023 Creative Labs. All rights reserved.</p>
       <div class="ml-8 mt-6 md:mt-0">
         <a href="#" class="underline pr-4 border-r-2 border-gray-500"
-          >Privacy policy
-        </a>
+          >Privacy policy</a
+        >
         <a href="#" class="underline pl-4">Cookie policy</a>
       </div>
     </div>
   </footer>
 </template>
+
+<script>
+import FooterColumn from './FooterColumn.vue';
+
+export default {
+  components: {
+    FooterColumn,
+  },
+  data() {
+    return {
+      creativeLabsItems: [
+        'Work',
+        'What we do',
+        'Stories',
+        'Contact us',
+        'Careers',
+        'About us',
+      ],
+      contactUsItems: [
+        'Contact us',
+        'Creative Labs',
+        'Pelagonka 2',
+        'Bitola, Macedonia',
+        'hi@creativelabs.se',
+        'LinkedIn',
+      ],
+    };
+  },
+};
+</script>

@@ -1,14 +1,33 @@
 <script setup>
 import SectionCard from '../SectionCard/SectionCard.vue';
 </script>
+<script>
+import VueLoadImage from 'vue-load-image';
+
+export default {
+  components: {
+    'vue-load-image': VueLoadImage,
+  },
+};
+</script>
 <template>
   <div class="flex flex-col lg:flex-row gap-8">
     <div class="lg:w-1/2">
-      <img
-        src="../../../public//images/join-our-team-section-img.svg"
-        alt="Team Building Dinner Image"
-        class="w-full h-full object-cover"
-      />
+      <vue-load-image class="h-full">
+        <template v-slot:image>
+          <img
+            src="../../../public//images/join-our-team-section-img.svg"
+            alt="Team Building Dinner Image"
+            class="w-full h-full object-cover"
+          />
+        </template>
+        <template v-slot:preloader>
+          <img
+            src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
+          />
+        </template>
+        <template v-slot:error>Image load fails</template>
+      </vue-load-image>
     </div>
     <div class="lg:w-1/2">
       <SectionCard

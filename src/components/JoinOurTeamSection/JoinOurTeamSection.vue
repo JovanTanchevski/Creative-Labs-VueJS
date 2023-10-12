@@ -7,7 +7,7 @@ import SectionCard from '../SectionCard/SectionCard.vue';
       <img
         src="../../../public//images/join-our-team-section-img.svg"
         alt="Team Building Dinner Image"
-        class="w-full h-full"
+        class="w-full h-full object-cover"
       />
     </div>
     <div class="lg:w-1/2">

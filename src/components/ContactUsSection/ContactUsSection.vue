@@ -8,7 +8,7 @@ export default {
 </script>
 <template>
   <div class="darkenedBackground md:h-[752px]">
-    <div class="flex justify-start items-end h-full">
+    <div class="flex h-full">
       <SectionCard
         title="Euismod elementumnisi quis eleifend quam proin sagittis."
         subTitle="Contact us"

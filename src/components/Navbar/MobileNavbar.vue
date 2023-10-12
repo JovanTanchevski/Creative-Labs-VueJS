@@ -7,12 +7,12 @@
     <div class="container mx-auto flex justify-between items-center">
       <div class="flex items-center space-x-2">
         <img
-          src="/images/creative-labs-logo-img.svg"
+          src="/images/creative-labs-logo-img.png"
           alt="Creative Labs Logo"
           class="h-10"
         />
         <img
-          src="/images/creative-labs-text-logo.svg"
+          src="/images/creative-labs-text-logo.png"
           alt="Creative Labs Text Logo"
           class="h-24"
         />

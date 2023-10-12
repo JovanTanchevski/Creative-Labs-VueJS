@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-screen bg-[url('/images/hero-banner-section-bg.svg')] bg-center bg-cover bg-no-repeat relative"
+    class="h-screen bg-[url('/images/hero-banner-section-bg.png')] bg-center bg-cover bg-no-repeat relative"
   >
     <div class="absolute bottom-0 left-0 p-8">
       <h1

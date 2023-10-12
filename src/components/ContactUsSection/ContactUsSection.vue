@@ -26,6 +26,6 @@ export default {
       rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url('/images/contact-us-banner-bg.svg') center/cover no-repeat;
+    url('/images/contact-us-banner-bg.png') center/cover no-repeat;
 }
 </style>

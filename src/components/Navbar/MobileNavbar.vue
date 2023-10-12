@@ -1,6 +1,8 @@
 <template>
   <header
-    :class="`lg:hidden p-4 fixed ${mobileMenuOpen && 'bg-black'} z-10 w-full`"
+    :class="`lg:hidden p-4 absolute ${
+      mobileMenuOpen && 'bg-black'
+    } z-10 w-full`"
   >
     <div class="container mx-auto flex justify-between items-center">
       <div class="flex items-center space-x-2">

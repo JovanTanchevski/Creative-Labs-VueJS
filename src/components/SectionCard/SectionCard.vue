@@ -16,8 +16,8 @@ export default {
 </script>
 <template>
   <div
-    :class="`${backgroundColor} ${isSmallCard && 'md:w-1/2'} 'flex-col'
-    } rounded-lg p-8 h-full`"
+    :class="`${backgroundColor} ${isSmallCard && 'md:w-1/2'} 'flex flex-col'
+    } rounded-lg p-8 ${isSmallCard ? 'h-auto' : 'h-full'}`"
   >
     <div class="mb-4">
       <h4

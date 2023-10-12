@@ -7,18 +7,16 @@ export default {
 };
 </script>
 <template>
-  <div class="darkenedBackground md:h-[752px]">
-    <div class="flex h-full">
-      <SectionCard
-        title="Euismod elementumnisi quis eleifend quam proin sagittis."
-        subTitle="Contact us"
-        shortDescription="Senectus et netus et malesuada fames. Sed augue lacus viverra vitae congue eu consequat. Cum sociis natoque penatibus et magnis dis parturient montes. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Enim eu turpis egestas pretium aenean pharetra."
-        textLink="Contact Us"
-        :isBackgroundTransparent="true"
-        :isSmallCard="true"
-        arrowColor="FFE17A"
-      />
-    </div>
+  <div class="darkenedBackground md:h-[752px] flex justify-end flex-col">
+    <SectionCard
+      title="Euismod elementumnisi quis eleifend quam proin sagittis."
+      subTitle="Contact us"
+      shortDescription="Senectus et netus et malesuada fames. Sed augue lacus viverra vitae congue eu consequat. Cum sociis natoque penatibus et magnis dis parturient montes. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Enim eu turpis egestas pretium aenean pharetra."
+      textLink="Contact Us"
+      :isBackgroundTransparent="true"
+      :isSmallCard="true"
+      arrowColor="FFE17A"
+    />
   </div>
 </template>
 <style scoped>

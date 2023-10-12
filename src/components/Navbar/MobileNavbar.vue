@@ -1,5 +1,5 @@
 <template>
-  <header
+  <div
     :class="`lg:hidden p-4 absolute ${
       mobileMenuOpen && 'bg-black'
     } z-10 w-full`"
@@ -102,7 +102,7 @@
         </li>
       </ul>
     </nav>
-  </header>
+  </div>
 </template>
 
 <script>

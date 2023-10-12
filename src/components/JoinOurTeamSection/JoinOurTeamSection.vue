@@ -16,7 +16,7 @@ export default {
       <vue-load-image class="h-full">
         <template v-slot:image>
           <img
-            src="../../../public//images/join-our-team-section-img.svg"
+            src="../../../public//images/join-our-team-section-img.png"
             alt="Team Building Dinner Image"
             class="w-full h-full object-cover"
           />
